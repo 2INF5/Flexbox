@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #909090;
+}
+
+h1 {
+    color: #430;
+    margin-left: 20px;
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+.innpakning {
+   width: 800px; 
+   background-color: #404040; 
+   margin: auto; 
+   display: flex; 
+   flex-direction: column; 
+   }
+.topptekst {
+   height: 120px; 
+   background-color: #909090; 
+   padding: 5px;
+   margin: 5px; 
+ }
+.meny {
+   padding: 5px; 
+   margin: 5px; 
+   }
+.innhold {
+   background-color: #909090; 
+   padding: 5px; 
+   margin: 5px; 
+     }
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+     }
+     
+.kolonne {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+
+.kolonne img {
+   margin-top: 8px;
+   vertical-align: middle;
+}
+
+
+@media (max-width: 800px) {
+    .kolonne {
+        flex: 50%;
+        max-width: 50%;
+        vertical-align: middle;
+    position: relative;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .kolonne {
+        flex: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+    position: relative;
+    }
+}
+
+.
+  
